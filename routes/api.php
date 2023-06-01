@@ -3,7 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController; 
-
+use App\Http\Controllers\PencarianController; 
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -19,6 +19,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::get('/barang',[PencarianController::class,'index']);
+Route::get('/barang/{id_barang}', [PencarianController::class, 'show']); 
 
 Route::group(['middleware'=>'api','prefix'=>'auth'], function($router){
     Route::post('/register',[AuthController::class,'register']);
