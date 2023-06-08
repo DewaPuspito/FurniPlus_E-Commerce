@@ -1,0 +1,25 @@
+{
+    "user": [
+      { "id": 1, 
+        "name": "Dio", 
+        "email": "dio@gmail.com", 
+        "email_verified_at": null,
+        "created_at": "",
+        "updated_at": "",
+        "birth_date": "1878",
+        "address": "UK",
+        "phone": "621648762874",
+        "gender": "Male"},
+
+      { "id": 2, 
+        "name": "Jolyne", 
+        "email": "stonefree@gmail.com", 
+        "email_verified_at": null,
+        "created_at": "",
+        "updated_at": "",
+        "birth_date": "1996",
+        "address": "Dolphin Street",
+        "phone": "0216486214",
+        "gender": "Female" }
+    ]
+  }
