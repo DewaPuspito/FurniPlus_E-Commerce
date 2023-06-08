@@ -2,8 +2,11 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
 use App\Models\User;
 
 class UserSeeder extends Seeder
@@ -22,7 +25,7 @@ class UserSeeder extends Seeder
             'address' => Str::random(255),
             'phone' => Str::random(255),
             'gender' => Str::random(255),
-        ]
+        ],
         ]);     
     }
     
