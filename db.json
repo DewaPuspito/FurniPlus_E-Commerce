@@ -21,5 +21,43 @@
         "address": "Dolphin Street",
         "phone": "0216486214",
         "gender": "Female" }
+    ],
+    "data_barang": [
+      { "id": 1, 
+        "nama_barang": "Linnmon", 
+        "foto_barang": "linnmon.jpg", 
+        "deskripsi_barang": "daun meja",
+        "stok": "10",
+        "harga": "499.000" },
+
+      { "id": 2, 
+        "nama_barang": "lampu aesthetic", 
+        "foto_barang": "lampu_aesthetic.jpg", 
+        "deskripsi_barang": "lampu cakep",
+        "stok": "5",
+        "harga": "55.000" }
+    ],
+    "data_pesanan": [
+      { "pk_id": 1,
+        "fk_id_barang": 1,
+        "fk_id_user": 1,
+        "name": "Dio", 
+        "address": "UK",
+        "phone": "621648762874",
+        "jumlah_pesanan": "3", 
+        "total_harga": "1.497.000",
+        "status": "Dalam Proses",
+        "resi": "11" },
+
+      { "pk_id": 2,
+        "fk_id_barang": 2,
+        "fk_id_user": 2,
+        "name": "Jolyne", 
+        "address": "Dolphin Street",
+        "phone": "0216486214",
+        "jumlah_pesanan": "2", 
+        "total_harga": "110.000",
+        "status": "Dalam Proses",
+        "resi": "22" }
     ]
   }
