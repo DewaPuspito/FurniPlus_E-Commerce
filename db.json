@@ -59,5 +59,36 @@
         "total_harga": "110.000",
         "status": "Dalam Proses",
         "resi": "22" }
+    ],
+    "data_pengemasan": [
+      { "pk_id_pengiriman": 1,
+        "fk_id_pengemasan": 1,
+        "name": "Dio", 
+        "address": "UK",
+        "phone": "621648762874",
+        "jumlah_pesanan": "3", 
+        "total_harga": "1.497.000",
+        "status": "Sedang Dikirim",
+        "resi": "11",
+        "nama_barang": "Linnmon", 
+        "deskripsi_barang": "daun meja",
+        "tanggal_pengiriman": "11 Juni 2023",
+        "deskripsi_pengiriman": "---",
+        "estimasi_sampai": "14 Juni 2023" },
+
+      { "pk_id_pengiriman": 2,
+        "fk_id_pengemasan": 2,
+        "name": "Jolyne", 
+        "address": "Dolphin Street",
+        "phone": "0216486214",
+        "jumlah_pesanan": "2", 
+        "total_harga": "110.000",
+        "status": "Dalam Proses",
+        "resi": "22",
+        "nama_barang": "lampu aesthetic",  
+        "deskripsi_barang": "lampu cakep",
+        "tanggal_pengiriman": "15 Juni 2023",
+        "deskripsi_pengiriman": "---",
+        "estimasi_sampai": "19 Juni 2023" }
     ]
   }
