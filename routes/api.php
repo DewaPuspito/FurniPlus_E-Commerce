@@ -7,7 +7,7 @@ use App\Http\Controllers\PencarianController;
 use App\Http\Controllers\DataPesananController;
 use App\Http\Controllers\DataRefundController;
 use App\Http\Controllers\TampilkanResiController;
-use App\Http\Controllers\KeranjangController;
+use App\Http\Controllers\CartController;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,7 +42,7 @@ Route::middleware('auth:sanctum')->get('/resi', function (Request $request) {
 Route::get('/resi',[TampilkanResiController::class,'index']);
 Route::get('/resi/{id_pengemasan}', [TampilkanResiController::class, 'show']); 
 
-Route::post('/tambah_barang',[KeranjangController::class,'tambah_barang']);
-Route::get('/barang',[KeranjangController::class,'index']);
-Route::get('/barang/{id_barang}', [KeranjangController::class, 'show']); 
+Route::post('/tambahCart',[CartControllerController::class,'tambahCart']);
+Route::get('/barang-keranjang',[CartController::class,'tambahCart']);
+Route::get('/barang/{id_barang}',[CartController::class, 'addBarangtoCart']); 
 
