@@ -15,7 +15,10 @@ class DataPesananController extends Controller
     public function index()
     {
         $dataPesanan = DataPesanan::all();
-        return response()->json($dataPesanan);
+        return response()->json([
+            'message' => '200 = Ok',
+            'response' => $dataPesanan
+        ]);
     }
 
     /**
