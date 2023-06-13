@@ -16,7 +16,7 @@ class DataRefundController extends Controller
     public function index()
     {
         $dataRefund = DataRefund::all();
-        return response()->json($dataRefund);
+        return response()->json(['response' => $dataRefund]);
     }
 
     /**
