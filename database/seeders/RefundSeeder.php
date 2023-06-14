@@ -19,11 +19,11 @@ class RefundSeeder extends Seeder
                 "id_user" => "3",
                 "nama_pengguna" => "Jotaro",
                 "alamat" => "Tokyo",
-                "no_hp" => "089489718942",
+                "no_hp" => "089",
                 "jumlah_pesanan" => "1",
                 "total_harga" => "95.000",
                 "status" => "Sudah Dibayar",
-                "resi" => "4268468426",
+                "resi" => "426",
                 "alasan_refund" => "Barang tidak sesuai",
             ],
             [
@@ -31,11 +31,11 @@ class RefundSeeder extends Seeder
                 "id_user" => "4",
                 "nama_pengguna" => "Josuke",
                 "alamat" => "Osaka",
-                "no_hp" => "08492478126468",
+                "no_hp" => "084",
                 "jumlah_pesanan" => "1",
                 "total_harga" => "295.000",
                 "status" => "Sudah Dibayar",
-                "resi" => "642824144",
+                "resi" => "642",
                 "alasan_refund" => "Barang tidak bisa dipakai",
             ]
             ]);     
