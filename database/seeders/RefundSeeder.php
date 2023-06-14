@@ -15,6 +15,8 @@ class RefundSeeder extends Seeder
     {
         DB::table('data_refund')->insert([
             [   
+                "id_barang" => "1",
+                "id_user" => "3",
                 "nama_pengguna" => "Jotaro",
                 "alamat" => "Tokyo",
                 "no_hp" => "089489718942",
@@ -25,6 +27,8 @@ class RefundSeeder extends Seeder
                 "alasan_refund" => "Barang tidak sesuai",
             ],
             [
+                "id_barang" => "2",
+                "id_user" => "4",
                 "nama_pengguna" => "Josuke",
                 "alamat" => "Osaka",
                 "no_hp" => "08492478126468",
